@@ -19,6 +19,7 @@ namespace LoginWPF.Principal
 {
     /// <summary>
     /// Lógica de interacción para PaginaAgenda.xaml
+    /// otro comentario
     /// </summary>
     public partial class PaginaAgenda : Page
     {
