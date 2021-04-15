@@ -1,0 +1,49 @@
+﻿<Page x:Class="LoginWPF.Principal.PaginaPrincipal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LoginWPF.Principal"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PaginaPrincipal">
+
+    <WrapPanel>
+        <Button Height="200" Width="250">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="20" FontWeight="Bold">Paginas</TextBlock>
+                <Image Margin="0 10 0 0" Height="100" Source="/LoginWPF;component/imagenes/Paginas.PNG"></Image>
+            </StackPanel>
+        </Button>
+        <Button Height="200" Width="250">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="20" FontWeight="Bold">Estadisticas</TextBlock>
+                <Image Margin="0 10 0 0" Height="100" Source="/LoginWPF;component/imagenes/Estadisticas.PNG"></Image>
+            </StackPanel>
+        </Button>
+        <Button Height="200" Width="250">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="20" FontWeight="Bold">Editar</TextBlock>
+                <Image Margin="0 10 0 0" Height="100" Source="/LoginWPF;component/imagenes/Editar.PNG"></Image>
+            </StackPanel>
+        </Button>
+        <Button Height="200" Width="250">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="20" FontWeight="Bold">Agregar</TextBlock>
+                <Image Margin="0 10 0 0" Height="100" Source="/LoginWPF;component/imagenes/Agregar.PNG"></Image>
+            </StackPanel>
+        </Button>
+        <Button Height="200" Width="250">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="20" FontWeight="Bold">Preferencias</TextBlock>
+                <Image Margin="0 10 0 0" Height="100" Source="/LoginWPF;component/imagenes/Preferencias.PNG"></Image>
+            </StackPanel>
+        </Button>
+        <Button Height="200" Width="250">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="20" FontWeight="Bold">Ayuda</TextBlock>
+                <Image Margin="0 10 0 0" Height="100" Source="/LoginWPF;component/imagenes/Ayuda.PNG"></Image>
+            </StackPanel>
+        </Button>
+    </WrapPanel>
+</Page>
